@@ -6,8 +6,8 @@
 #include <algorithm>
 #include "Globales.h"
 
-#define MAX_DEP     9
-#define VOL         8
+#define MAX_DEP     5
+#define VOL         4
 
 //VOID PARA VOLTEAR LOS PANCAKES
 void flip(char *x, int n){
@@ -115,12 +115,12 @@ int main()
     strncpy(Pancakes, Goal, sized);
     Pancakes[sized] = '\0'; //establece el caracter nulo para indicar el final de la cadena
 
-    puts("Desordenando ...");
+    puts("Los pancakes se están desordenando, espere");
 	disorder(Pancakes, initDisorder);
 	printf(": %s\n",Pancakes);
 	strcpy(OriginalPancake, Pancakes);
 
-	puts("\nAlgoritmo\t\t\tNodos\tSolución");
+	puts("\nResuelto por\t\t\tNodos\tSolucion");
 
 	strcpy(Pancakes, OriginalPancake);
 	printf("\nProfundidad iterativa\t\t");
