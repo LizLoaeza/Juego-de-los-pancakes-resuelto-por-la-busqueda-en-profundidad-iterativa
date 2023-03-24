@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1679627526 source:c:\users\beth1\onedrive\documentos\sexto semestre\inteligencia artificial\pancakeprofundidaditerativa\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<iostream>
+	<algorithm>
+	"Globales.h"
+
+1679608354 c:\users\beth1\onedrive\documentos\sexto semestre\inteligencia artificial\pancakeprofundidaditerativa\globales.h
+
