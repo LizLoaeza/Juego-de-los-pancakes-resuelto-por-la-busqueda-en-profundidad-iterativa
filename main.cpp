@@ -1,3 +1,6 @@
+/*Juego de los pancakes resuelto por el métodos de búsqueda de profundidad iterativa
+Trabajo realizado para la materia de inteligencia artificial*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
